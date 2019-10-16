@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mTv = (TextView) findViewById(R.id.tv);
         mTv.setOnClickListener(this);
         mTv.setText("huaqianqian");
+        mTv.setText("23456");
     }
     @Override
     public void onClick(View v) {
