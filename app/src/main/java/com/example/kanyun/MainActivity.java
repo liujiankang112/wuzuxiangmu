@@ -13,12 +13,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      */
     private TextView mTv;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initView();
+        initData();
     }
+    private void initData() {
+        Toast.makeText(this, "刘健康   你个 ...........(此处省略10000字)", Toast.LENGTH_SHORT).show();
+    }
+
 
     private void initView() {
         mTv = (TextView) findViewById(R.id.tv);
