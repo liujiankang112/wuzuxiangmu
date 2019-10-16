@@ -25,8 +25,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mTv.setOnClickListener(this);
         mTv.setText("huaqianqian");
     }
-
-
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
@@ -34,7 +32,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.tv:
                 Toast.makeText(this, "刘健康", Toast.LENGTH_SHORT).show();
-
                 break;
         }
     }
