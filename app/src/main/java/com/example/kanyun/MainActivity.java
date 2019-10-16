@@ -26,13 +26,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mTv.setText("huaqianqian");
     }
 
+
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
             default:
                 break;
             case R.id.tv:
-                Toast.makeText(this, "华倩倩", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "刘健康", Toast.LENGTH_SHORT).show();
 
                 break;
         }
