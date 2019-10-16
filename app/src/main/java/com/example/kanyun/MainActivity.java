@@ -23,8 +23,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private void initView() {
         mTv = (TextView) findViewById(R.id.tv);
         mTv.setOnClickListener(this);
-    }
 
+
+        mTv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MainActivity.this, "刘建鑫", Toast.LENGTH_SHORT).show();
+            }
+        });
+    }
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
